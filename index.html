@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FIRST WEBSITE</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Web Developement GDSC</h1>
+        <p class="introduction-heading">Assignment 1</p>
+    </div>
+    <div class="topnav">
+ 
+        <a href="#sec1">Section 1</a>
+        <a href="#sec2">Section 2</a>
+        <a href="#sec3">Section 3</a>
+        <a href="#sec4">Section 4</a>
+ 
+    </div>
+
+
+    <div class="row">
+        <div class="card">
+           <div id="sec1">
+          <div class="content">
+            <h2>Section 1</h2>
+            <h5 class="introduction-heading">Introduction</h5>
+            <div class="image-container">
+              <img src="img/Yesss.jpg" alt="alternatetext"> 
+            </div>
+            <div class="text-container">
+              
+              <p>Hiii, myself Trijal Srivastava. I'm a second-year undergraduate in the department of Electrical Engineering.</p>
+              <p>This is the first website I've ever made. I've used HTML, CSS, and JavaScript only.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="card">
+        <div id="sec2">
+        <h2>Section 2</h2>
+        <h5 class = "introduction-heading">Photo Gallery</h5>
+
+        <div class ="image-grid">
+            <div class ="image-item">
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="img/image-1.jpeg" alt="Image 1">
+                    <p class="caption">Caption for Image 1</p>
+                </a>
+            </div>
+
+            <div class ="image-item">
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="img/image-2.jpeg" alt="Image 1">
+                    <p class="caption">Caption for Image 2</p>
+                </a>
+            </div>
+
+            <div class ="image-item">
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="img/images-3.jpeg" alt="Image 1">
+                    <p class="caption">Caption for Image 3</p>
+                </a>
+            </div>
+
+            <div class ="image-item">
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="img/images-4.jpeg" alt="Image 1">
+                    <p class="caption">Caption for Image 3</p>
+                </a>
+            </div>
+
+            <div class ="image-item">
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="img/images-5.jpeg" alt="Image 1">
+                    <p class="caption">Caption for Image 4</p>
+                </a>
+            </div>
+
+            <div class ="image-item">
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="img/images-6.jpeg" alt="Image 1">
+                    <p class="caption">Caption for Image 5</p>
+                </a>
+            </div>
+
+
+    </div>
+        
+    </div>
+    </div>
+
+    <div class = "card">
+        <div id ="sec3">
+            <h2>Section 3</h2>
+            <h5 class = "introduction-heading">Form</h5>
+            <form action="/my-handling-form-page" method="post" id = "userinfo">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                  </li>
+                  <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" />
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+
+                  <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+                  
+                </ul>
+              </form>
+
+
+
+              
+ 
+        </div>
+    </div>  
+    
+    <div class = "card">
+        <div id = "sec4">
+            <h2> Section 4</h2>
+            <h5 class = "introduction-heading">TIME TABLE</h5>
+            <table border="5" cellspacing="0" align="center">
+                <!--<caption>Timetable</caption>-->
+                <tr>
+                    <td align="center" height="50" width="100"><br>
+                        <b>Day/Period</b></br>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>I<br>8:00-8:50</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>II<br>9:00-9:50</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>III<br>10:00-10:50</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>11:00-11:50</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>IV<br>12:00-12:50</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>V<br>2:00-5:00</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>VI<br>5:00-5:50</b>
+                    </td>
+                    <td align="center" height="50" width="100">
+                        <b>VII<br>6:00-6:50</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Monday</b>
+                    </td>
+                    <td align="center" height="50">Eng</td>
+                    <td align="center" height="50">Mat</td>
+                    <td align="center" height="50">Che</td>
+                    <td rowspan="6" align="center" height="50">
+                        <h2>L<br>U<br>N<br>C<br>H</h2>
+                    </td>
+                    <td colspan="3" align="center" height="50">LAB</td>
+                    <td align="center" height="50">Phy</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Tuesday</b>
+                    </td>
+                    <td colspan="3" align="center" height="50">LAB
+                    </td>
+                    <td align="center" height="50">Eng</td>
+                    <td align="center" height="50">Che</td>
+                    <td align="center" height="50">Mat</td>
+                    <td align="center" height="50">SPORTS</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Wednesday</b>
+                    </td>
+                    <td align="center" height="50">Mat</td>
+                    <td align="center" height="50">phy</td>
+                    <td align="center" height="50">Eng</td>
+                    <td align="center" height="50">Che</td>
+                    <td colspan="3" align="center" height="50">LIBRARY
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Thursday</b>
+                    </td>
+                    <td align="center" height="50">Phy</td>
+                    <td align="center" height="50">Eng</td>
+                    <td align="center" height="50">Che</td>
+                    <td colspan="3" align="center" height="50">LAB
+                    </td>
+                    <td align="center" height="50">Mat</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Friday</b>
+                    </td>
+                    <td colspan="3" align="center" height="50">LAB
+                    </td>
+                    <td align="center" height="50">Mat</td>
+                    <td align="center" height="50">Che</td>
+                    <td align="center" height="50">Eng</td>
+                    <td align="center" height="50">Phy</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Saturday</b>
+                    </td>
+                    <td align="center" height="50">Eng</td>
+                    <td align="center" height="50">Che</td>
+                    <td align="center" height="50">Mat</td>
+                    <td colspan="3" align="center" height="50">SEMINAR
+                    </td>
+                    <td align="center" height="50">SPORTS</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+ 
+
+</body>
+</html>
